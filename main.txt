@@ -1,0 +1,92 @@
+import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+import 'Homepage.dart';
+//import 'Ashutosh.dart';
+//import 'Adarsh.dart';
+
+void main() {
+  runApp(new MaterialApp(
+    home: new MyApp(),
+  ));
+}
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+        body: GridView(gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2), children: [
+      InkWell(
+        onTap: () {
+          Navigator.push(context, MaterialPageRoute(builder: (context) => Homepage()));
+        },
+        child: Container(child: Align(alignment: Alignment.center, child: Text("Aman")), color: Colors.blue, margin: EdgeInsets.all(5.0)),
+      ),
+      InkWell(
+        onTap: () {
+          Navigator.push(context, MaterialPageRoute(builder: (context) => Ashutosh()));
+        },
+        child: Container(child: Align(alignment: Alignment.center, child: Text("Ashutosh")), color: Colors.blue, margin: EdgeInsets.all(5.0)),
+      ),
+      InkWell(
+        onTap: () {
+          Navigator.push(context, MaterialPageRoute(builder: (context) => Adarsh()));
+        },
+        child: Container(child: Align(alignment: Alignment.center, child: Text("Adarsh")), color: Colors.blue, margin: EdgeInsets.all(5.0)),
+      ),
+      InkWell(
+        onTap: () {
+          Navigator.push(context, MaterialPageRoute(builder: (context) => AjitSir()));
+        },
+        child: Container(child: Align(alignment: Alignment.center, child: Text("Ajitsir")), color: Colors.blue, margin: EdgeInsets.all(5.0)),
+      ),
+      InkWell(
+        onTap: () {
+          Navigator.push(context, MaterialPageRoute(builder: (context) => AnilSir()));
+        },
+        child: Container(child: Align(alignment: Alignment.center, child: Text("Anilsir")), color: Colors.blue, margin: EdgeInsets.all(5.0)),
+      ),
+      InkWell(
+        onTap: () {
+          Navigator.push(context, MaterialPageRoute(builder: (context) => puspendra()));
+        },
+        child: Container(child: Align(alignment: Alignment.center, child: Text("puspendra")), color: Colors.blue, margin: EdgeInsets.all(5.0)),
+      ),
+      InkWell(
+        onTap: () {
+          Navigator.push(context, MaterialPageRoute(builder: (context) => Dewansh()));
+        },
+        child: Container(child: Align(alignment: Alignment.center, child: Text("Dewansh")), color: Colors.blue, margin: EdgeInsets.all(5.0)),
+      ),
+      InkWell(
+        onTap: () {
+          Navigator.push(context, MaterialPageRoute(builder: (context) => Archit()));
+        },
+        child: Container(child: Align(alignment: Alignment.center, child: Text("Archit")), color: Colors.blue, margin: EdgeInsets.all(5.0)),
+      ),
+      InkWell(
+        onTap: () {
+          Navigator.push(context, MaterialPageRoute(builder: (context) => VishalSir()));
+        },
+        child: Container(child: Align(alignment: Alignment.center, child: Text("VishalSir")), color: Colors.blue, margin: EdgeInsets.all(5.0)),
+      ),
+      InkWell(
+        onTap: () {
+          Navigator.push(context, MaterialPageRoute(builder: (context) => Hariom()));
+        },
+        child: Container(child: Align(alignment: Alignment.center, child: Text("Hariom")), color: Colors.blue, margin: EdgeInsets.all(5.0)),
+      ),
+      InkWell(
+        onTap: () {
+          Navigator.push(context, MaterialPageRoute(builder: (context) => Himanshu()));
+        },
+        child: Container(child: Align(alignment: Alignment.center, child: Text("Himanshu")), color: Colors.blue, margin: EdgeInsets.all(5.0)),
+      ),
+      InkWell(
+        onTap: () {
+          Navigator.push(context, MaterialPageRoute(builder: (context) => Rohan()));
+        },
+        child: Container(child: Align(alignment: Alignment.center, child: Text("Rohan")), color: Colors.blue, margin: EdgeInsets.all(5.0)),
+      ),
+    ]));
+  }
+}

@@ -1,0 +1,205 @@
+import 'package:flutter/material.dart';
+
+class Homepage extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+        appBar: AppBar(title: Text("home page")),
+        body: Center(
+            child: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
+          Container(
+            height: 100,
+            width: 100,
+            color: Colors.amber,
+            child: Align(alignment: Alignment.center, child: Text("Aman")),
+          )
+        ])));
+  }
+}
+
+class Ashutosh extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+        appBar: AppBar(title: Text("hompage")),
+        body: Center(
+            child: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
+          Container(
+            height: 100,
+            width: 100,
+            color: Colors.amber,
+            child: Align(alignment: Alignment.center, child: Text("Ashutosh")),
+          )
+        ])));
+  }
+}
+
+class Adarsh extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+        appBar: AppBar(title: Text("home page")),
+        body: Center(
+            child: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
+          Container(
+            height: 100,
+            width: 100,
+            color: Colors.amber,
+            child: Align(alignment: Alignment.center, child: Text("Adarsh")),
+          )
+        ])));
+  }
+}
+
+class AjitSir extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+        appBar: AppBar(title: Text("home page")),
+        body: Center(
+            child: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
+          Container(
+            height: 100,
+            width: 100,
+            color: Colors.amber,
+            child: Align(alignment: Alignment.center, child: Text("AjitSir")),
+          )
+        ])));
+  }
+}
+
+class AnilSir extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+        appBar: AppBar(title: Text("home page")),
+        body: Center(
+            child: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
+          Container(
+            height: 100,
+            width: 100,
+            color: Colors.amber,
+            child: Align(alignment: Alignment.center, child: Text("AnilSir")),
+          )
+        ])));
+  }
+}
+
+class puspendra extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+        appBar: AppBar(title: Text("home page")),
+        body: Center(
+            child: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
+          Container(
+            height: 100,
+            width: 100,
+            color: Colors.amber,
+            child: Align(alignment: Alignment.center, child: Text("Puspendra")),
+          )
+        ])));
+  }
+}
+
+class Dewansh extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+        appBar: AppBar(title: Text("home page")),
+        body: Center(
+            child: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
+          Container(
+            height: 100,
+            width: 100,
+            color: Colors.amber,
+            child: Align(alignment: Alignment.center, child: Text("Dewansh")),
+          )
+        ])));
+  }
+}
+
+class Archit extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+        appBar: AppBar(title: Text("home page")),
+        body: Center(
+            child: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
+          Container(
+            height: 100,
+            width: 100,
+            color: Colors.amber,
+            child: Align(alignment: Alignment.center, child: Text("Archit")),
+          )
+        ])));
+  }
+}
+
+class VishalSir extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+        appBar: AppBar(title: Text("home page")),
+        body: Center(
+            child: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
+          Container(
+            height: 100,
+            width: 100,
+            color: Colors.amber,
+            child: Align(alignment: Alignment.center, child: Text("VishalSir")),
+          )
+        ])));
+  }
+}
+
+class Hariom extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+        appBar: AppBar(title: Text("home page")),
+        body: Center(
+            child: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
+          Container(
+            height: 100,
+            width: 100,
+            color: Colors.amber,
+            child: Align(alignment: Alignment.center, child: Text("Hariom")),
+          )
+        ])));
+  }
+}
+
+class Himanshu extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+        appBar: AppBar(title: Text("home page")),
+        body: Center(
+            child: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
+          Container(
+            height: 100,
+            width: 100,
+            color: Colors.amber,
+            child: Align(alignment: Alignment.center, child: Text("Himanshu")),
+          )
+        ])));
+  }
+}
+
+class Rohan extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+        appBar: AppBar(title: Text("home page")),
+        body: Center(
+            child: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
+          Container(
+            height: 100,
+            width: 100,
+            color: Colors.amber,
+            child: Align(alignment: Alignment.center, child: Text("Rohan")),
+          )
+        ])));
+  }
+}
